@@ -1,6 +1,8 @@
 package File::PidSimple;
 
-$VERSION = '0.05';
+$VERSION = '0.06';
+
+BEGIN { require 5.006; };
 
 use warnings;
 use strict;
